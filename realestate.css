@@ -1,0 +1,159 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: O;
+  text-decoration: none;
+  list-style: none;
+  font-family: montserrat;
+}
+.icons {
+  width: 100%;
+  height: 10vh;
+  /* background-color: green; */
+  /* color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.icons h2 {
+  font-weight: 200;
+}
+span {
+  color: aqua;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.button {
+  padding: 5px;
+  /* background-color: red; */
+}
+.button2 {
+  color: white;
+  padding: 5px;
+  background-color: aqua;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+
+.button1 {
+  color: black;
+  padding: 5px;
+  /* background-color: aqua; */
+  text-decoration: none;
+  list-style: none;
+  border-radius: 5%;
+  border: none;
+}
+section {
+    width: 100%;
+    height: 52vh;
+    /* background-color: grey; */
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.text {
+  width: 70%;
+  height: 80vh;
+  color: blue;
+  /* background-color: whitesmoke; */
+  z-index: 10;
+  margin-top: -32px;
+  margin-left: 30px;
+  
+}
+
+.img {
+  width: 67%;
+  height: 80vh;
+  /* color: gold; */
+  background-color: gold;
+  position: absolute;
+  right: 0;
+  background-image: url(./Realestate\ pizure.png);
+  background-size: cover;
+  margin-right: 60px;
+  margin-top: 0px;
+  top: 67px;
+}
+.text h2{
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+.tobi{
+    display: flex;
+    width: 50%;
+    margin-left: 30px;
+    /* width: 1rem; */
+    /* justify-content: space-between; */
+    /* background-color: chartreuse; */
+    margin-top: -239px;
+}
+.tobi input{
+    background-color: aqua;
+    padding: 15px;
+    border: none;
+    padding-right: 20px;
+    /* border-radius: 10%; */
+    width: 350px;
+    z-index: 10;
+
+}
+button{
+    background-color: yellow;
+    border: none;
+    z-index: 1;
+    padding: 15px;
+
+}
+footer {
+  background-color: rgb(7, 78, 78);
+  display: flex;
+  width: 100%;
+  height: 28vh;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.child1 {
+  background-color: rgb(250, 244, 238);
+  height: 30vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.child2 {
+  display: flex;
+  align-items: center;
+  height: 28vh;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.child3 {
+  display: flex;
+  align-items: center;
+  height: 28vh;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.child4 {
+  display: flex;
+  align-items: center;
+  height: 28vh;
+  justify-content: center;
+  color: white;
+}
