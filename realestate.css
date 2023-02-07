@@ -125,13 +125,14 @@ footer {
 }
 
 .child1 {
-  background-color: rgb(250, 244, 238);
+  background-color: rgb(15, 15, 14);
   height: 30vh;
   justify-content: center;
   display: flex;
   flex-direction: column;
   padding-left: 55px;
   padding-right: 55px;
+  color: white;
 }
 .child2 {
   display: flex;
